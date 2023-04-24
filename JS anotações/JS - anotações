@@ -1,0 +1,47 @@
+jornalista = conteúdo = HTML = CONTEÚDO
+designer = dimensões/tamanhos/espaços = Tornar as coisas mais bonitas = CSS = ESTILO
+programador = configurações e engenharia do "website/jornal" = JS/Python = INTERAÇÃO
+
+--------------------------------------------------------------------------
+AULA 1
+Título = <h1> no inicio e </h1> no final do título
+Parágrafo = <p> no inicio e </p> no final do parágrafo
+cor do fundo = em cabeça... <style> body{background-color: COR; } <style>
+cor da letra = em cabeça... <style> body{color: COR; } <style>
+fonte = em cabeça... <style> body{font: normal TAMANHOpt NOME; } <style>
+Começar o JS no html = tag = <script>AQUI<script>
+--------------------------------------------------------------------------
+AULA 2
+confirmar = confim
+Comando optativo = prompt
+--------------------------------------------------------------------------
+AULA 3
+Comentar uma única linha = //
+Comentar um bloco inteiro inicio = /*  final = */
+criar váriavel = Podemos usar "var" ou "let"
+atribuir valor a variável = var/let = NOMEVAR = VALOR
+String delimitar = Pode ser usado em aspas duplas, aspas simples ou crazes (",',`)
+--------------------------------------------------------------------------
+AULA 4 
+converter para número inteiro = number.parseint()
+converter para número Float =  number.parsefloat()
+converter para número = number()
+converter para string = string () or .toString() no final do N
+concatenar/ PlaceHolder = `${}`
+--------------------------------------------------------------------------
+METODOS
+Maiúsculo = .toUpperCase()
+Minúsculo = .toLowerCase()
+Comprimento da string = .tolength
+Casas decimais nos números = toFixes(NUMERO DE CASAS)
+Trocar ponto por vírgula = .replace('.', ',')
+--------------------------------------------------------------------------
+AULA 5
+identico / não identico = === / !==
+operadores lógicos = negação = ! / conjunção/E = && / disjunção/ou = ||
+--------------------------------------------------------------------------
+AULA 6
+DOM
+Selecionar por marca =  getElementsByTagName() 
+Selecionar por ID/Por Nome/ por ClassName = <div> id="msg"/ por seletor = querySelector()
+quando selecionar ID = ./ Quando selecionar class = #
