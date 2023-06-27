@@ -12,13 +12,23 @@
     </header>
     <section>
         <div id="Letra">
-            Ano de nascimento: <input type="number" name="aNasci" id="txtano"> <br><br>
+            <p> <label for="aNasci">Ano de nascimento:</label>
+                <input type="number" name="aNasci" id="aNasci" min="0" max="4" required placeholder="XXXX"> <br><br>
+            </p>
+            <p>
+                Sexo: 
+                <label for="sMasc">Masculino:</label>
+                <input type="radio" name="gen" id="sMasc" checked id> 
+                <label for="sFemi">Feminino</label>
+                <input type="radio" name="gen" id="sFemi"> <br><br>
+            </p> 
+            <p>
+                <input type="button" value="Verificar" id="botao" onclick="cliquei()" style="text-align: left;">     
+            </p>
 
-            Sexo: <input type="radio" name="Masc" id="sMasc" checked id> Masculino <input type="radio" name="Masc" id="sFemi"> Feminino <br><br>
-            <input type="button" value="Verificar" onclick="cliquei()">                  
         </div>
         <div id="imagem">
-            
+            <strong>Preencha os dados acima para ver o resultado!</strong>
         </div>
     </section>
     <footer>

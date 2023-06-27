@@ -26,3 +26,8 @@ div#imagem{
     
 margin: auto;
 }
+input#botao{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.582);
+    text-align: left;
+    font-size: 1.5em;
+}
