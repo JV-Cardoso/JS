@@ -1,0 +1,42 @@
+@charset 'UTF-8';
+ 
+body{
+    
+    font: normal 1.3em arial;
+    background-color: cyan;
+    
+}
+header{
+
+}
+section{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.604);
+    border-radius: 25px;
+    margin: auto;
+    height: 350px;
+    width: 600px;
+    background-color: chocolate;
+}
+
+div#Letra{
+padding: 30px;
+color: black;
+font-weight: bolder;
+}
+div#imagem{
+text-align: center;
+margin: auto;
+}
+input#botao{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.582);
+    text-align: center;
+    font-size: 1em;
+}
+label#inicio2{
+    padding-right: 5px;
+}
+label#fim2{
+    padding-right: 23px;
+}
+label#passo2{
+}

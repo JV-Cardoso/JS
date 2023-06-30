@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css">
+    <style></style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">Vamos contar</h1>
+    </header>
+    <section>
+        <div id="Letra">
+            <p> <label for="inicio" id="inicio2">Início:</label >
+                <input type="number" name="inicio" id="inicio" min="0" required placeholder="XX"> <br>
+            </p>
+            <p>
+                <label for="fim" id="fim2">Fim:</label>
+                <input type="number" name="fim" id="fim" min="0" required placeholder="XX">
+            </p> 
+            <p><label for="passo" id="passo2">Passo:</label>
+                <input type="number" name="passo" id="passo" placeholder="XX">
+            </p>
+            <p>
+                <input type="button" value="Contar" onclick="clicar()" id="botao">
+            </p>
+
+        </div>
+        <div id="imagem">
+            Preparando a contagem...
+        </div>
+    </section>
+    <footer>
+        <p style="text-align: center;">&copy; <strong>Eu_Jv.Cardoso</strong></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+@charset 'UTF-8';
+ 
+body{
+    
+    font: normal 1.3em arial;
+    text-align: center;
+}
+header{
+
+}
+section{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.604);
+    border-radius: 25px;
+    margin: auto;
+    height: 350px;
+    width: 600px;
+    background-color: chocolate;
+}
+
+div#Letra{
+padding: 30px;
+color: black;
+font-weight: bolder;
+}
+div#imagem{
+    
+margin: auto;
+}
+input#botao{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.582);
+    text-align: left;
+    font-size: 1.5em;
+}
