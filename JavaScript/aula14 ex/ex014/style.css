@@ -4,6 +4,8 @@ body{
     
     font: normal 1.3em arial;
     text-align: center;
+    background-color: aquamarine;
+    text-align: left;
 }
 header{
 
@@ -12,22 +14,38 @@ section{
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.604);
     border-radius: 25px;
     margin: auto;
-    height: 350px;
-    width: 600px;
-    background-color: chocolate;
+    height: 400px;
+    width: 800px;
+    background-color: rgb(30, 210, 30);
 }
 
 div#Letra{
-padding: 30px;
+padding: 50px;
 color: black;
 font-weight: bolder;
 }
 div#imagem{
+    margin-top: -45px;
+    padding-left: 20px;
     
-margin: auto;
+    
+
 }
 input#botao{
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.582);
-    text-align: left;
-    font-size: 1.5em;
+    font-size: 1em;
+    padding-bottom: 5px;
+    
+}
+.meio{
+    text-align: center;
+}
+#num{
+    width: 300px;
+    height: 25px;
+    padding-top: 3.5px;
+}
+select{
+    padding-top: 5px;
+    width: 200px;
 }

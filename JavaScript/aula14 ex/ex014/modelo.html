@@ -3,36 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verificador de Idade</title>
+    <title>Tabuada</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+</select>
 <body>
     <header>
-        <h1>Verificador de idade</h1>
+        <h1 class="meio">Tabuada</h1>
     </header>
     <section>
         <div id="Letra">
-            <p> <label for="aNasci">Ano de nascimento:</label>
-                <input type="number" name="aNasci" id="aNasci" min="0" max="4" required placeholder="XXXX"> <br><br>
+            <p> 
+                <label for="num">Número:</label>
+                <input type="number" name="num" id="txtnum" required placeholder="XX" >
+                <input type="button" value="Gerar tabuada" id="botao" onclick="cliquei()">
             </p>
-            <p>
-                Sexo: 
-                <label for="sMasc">Masculino:</label>
-                <input type="radio" name="gen" id="sMasc" checked id> 
-                <label for="sFemi">Feminino</label>
-                <input type="radio" name="gen" id="sFemi"> <br><br>
-            </p> 
-            <p>
-                <input type="button" value="Verificar" id="botao" onclick="cliquei()" style="text-align: left;">     
-            </p>
-
+            
         </div>
         <div id="imagem">
-            <strong>Preencha os dados acima para ver o resultado!</strong>
+            <select name="tabuada" id="tabuada" size="14">
+                            
+            </select>
         </div>
     </section>
     <footer>
-        <p>&copy; <strong>Eu_Jv.Cardoso</strong></p>
+        <p class="meio">&copy; <strong>Eu_Jv.Cardoso</strong></p>
     </footer>
     <script src="script.js"></script>
 </body>

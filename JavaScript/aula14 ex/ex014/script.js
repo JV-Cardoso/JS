@@ -1,25 +1,81 @@
 function cliquei(){
-        var dataAtual = new Date()
-        var anoAtual = dataAtual.getFullYear()
-        var anoColocado = window.document.getElementById('aNasci')
-        var resultado = window.document.getElementById('imagem')
-        if (anoColocado.value.length == 0){
-                window.alert('[ERRO] insira um valor válido')
-        } 
-        if (anoColocado.value > anoAtual){
-                window.alert (`[ERRO] o ano ${anoColocado.value} é maior do que ${anoAtual}`)}
-        else {
-                
-                var sex = window.document.getElementsByName('gen')
-                var idade = anoAtual - Number(anoColocado.value)
-                var genero = ''
+        let num = window.document.getElementById('txtnum')
+        let resultado = window.document.getElementById('tabuada')
 
-                if (sex[0].checked) {
-                        genero = 'um Homem'
-                } else{
-                        genero = 'uma Mulher'
+        if(num.value.length == 0){
+                alert('[ERRO] Verifique os dados digitados.')        
+        } else{ let Nnum = Number(num.value)
+                let cont = 1
+                resultado.innerHTML = ''
+                while (cont <= 14){
+                        let valor = window.document.createElement('option')
+                        valor.text = `${Nnum} X ${cont} = ${Nnum * cont}`
+                        resultado.appendChild(valor)
+                        cont ++
                 }
-                resultado.innerHTML = `Foi encontrado ${genero} com idade de ${idade} anos`
+
         }
-        
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*function cliquei(){
+        let num = window.document.getElementById('txtnum')
+        let resultado = window.document.getElementById('tabuada')
+        if (num.value.length == 0){
+                alert('[ERRO] Verifique os dados')
+        } else{
+                let Nnum = Number(num.value)
+                var cont = 1
+                while (cont <= 10){
+                        var valor = window.document.createElement('option')
+                        valor.text = `${Nnum} x ${cont} = ${Nnum * cont}`
+                        resultado.appendChild(valor)                        
+                        cont ++
+                                
+                }
+        }
+
+}*/
